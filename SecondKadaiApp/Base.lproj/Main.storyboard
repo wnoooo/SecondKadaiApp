@@ -23,13 +23,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="018-cM-JO4" customClass="name">
-                                <rect key="frame" x="20" y="276" width="374" height="30"/>
+                                <rect key="frame" x="20" y="149.33333333333334" width="374" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvI-cU-T4w">
-                                <rect key="frame" x="176" y="472" width="62" height="30"/>
+                                <rect key="frame" x="176" y="229.33333333333331" width="62" height="29.999999999999943"/>
                                 <state key="normal" title="あいさつ"/>
                                 <connections>
                                     <segue destination="xB7-ob-RhU" kind="show" id="Ctb-YA-Ltl"/>
@@ -45,9 +45,9 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="018-cM-JO4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="1TT-dH-wno"/>
-                            <constraint firstItem="018-cM-JO4" firstAttribute="top" secondItem="tKI-g8-gD2" secondAttribute="bottom" constant="176.66999999999999" id="59E-H5-Rqr"/>
+                            <constraint firstItem="018-cM-JO4" firstAttribute="top" secondItem="tKI-g8-gD2" secondAttribute="bottom" constant="50" id="59E-H5-Rqr"/>
                             <constraint firstItem="018-cM-JO4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Km2-G7-eTs"/>
-                            <constraint firstItem="cvI-cU-T4w" firstAttribute="top" secondItem="018-cM-JO4" secondAttribute="bottom" constant="166" id="Nt8-et-D76"/>
+                            <constraint firstItem="cvI-cU-T4w" firstAttribute="top" secondItem="018-cM-JO4" secondAttribute="bottom" constant="50" id="Nt8-et-D76"/>
                             <constraint firstItem="cvI-cU-T4w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PyE-wV-AaU"/>
                             <constraint firstItem="tKI-g8-gD2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gA7-FS-toV"/>
                             <constraint firstItem="tKI-g8-gD2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="59" id="r9g-zd-BU8"/>
@@ -75,7 +75,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cI9-qe-ROa">
-                                <rect key="frame" x="191" y="332" width="31" height="30"/>
+                                <rect key="frame" x="191" y="225.33333333333334" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <segue destination="Dhz-66-77D" kind="unwind" unwindAction="unwind:" id="6sQ-eL-YMx"/>
@@ -93,7 +93,7 @@
                             <constraint firstItem="cI9-qe-ROa" firstAttribute="centerX" secondItem="hCt-Yp-5gV" secondAttribute="centerX" id="OTK-Fa-HyT"/>
                             <constraint firstAttribute="trailingMargin" secondItem="U7U-bK-Wiz" secondAttribute="trailing" id="RzK-fV-V6K"/>
                             <constraint firstItem="U7U-bK-Wiz" firstAttribute="leading" secondItem="hCt-Yp-5gV" secondAttribute="leadingMargin" id="X7m-oc-sUi"/>
-                            <constraint firstItem="cI9-qe-ROa" firstAttribute="top" secondItem="U7U-bK-Wiz" secondAttribute="bottom" constant="176.66999999999999" id="ecF-vu-YkJ"/>
+                            <constraint firstItem="cI9-qe-ROa" firstAttribute="top" secondItem="U7U-bK-Wiz" secondAttribute="bottom" constant="70" id="ecF-vu-YkJ"/>
                             <constraint firstItem="U7U-bK-Wiz" firstAttribute="top" secondItem="crg-CO-yn8" secondAttribute="bottom" constant="115" id="gDs-2H-Nlp"/>
                             <constraint firstItem="cI9-qe-ROa" firstAttribute="centerX" secondItem="U7U-bK-Wiz" secondAttribute="centerX" id="hsL-mF-dc1"/>
                             <constraint firstItem="U7U-bK-Wiz" firstAttribute="centerX" secondItem="hCt-Yp-5gV" secondAttribute="centerX" id="oVE-bF-ker"/>
